@@ -1,0 +1,134 @@
+<html>
+    <head>
+        <title>Agência de Viagem</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>    
+    <body>
+        <style>
+            section{
+                min-height: 60vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: nowrap;
+                flex-direction: column;
+            }
+            #MinhaViagem {
+                background-image: url(img/ponte.webp);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                background-blend-mode: soft-light;
+                background-color: orange;
+            }
+
+            #MinhaViagem h1{
+                font-size: 6rem;
+                text-align: center;
+                margin: auto;
+                text-transform: capitalize;
+                color: white;
+                text-shadow: 3px 3px black;
+            }
+            h2{
+                font-size: 3rem;
+
+            }
+            h3{
+                font-size: 2rem;
+            }
+            p, ol li{
+                font-size: 1.5rem;
+            }
+            #conselhos{
+                background-color: darkorange;
+                color: white;
+            }
+            #conselhos a{
+                color: white;
+            }
+            #conselhos a:hover{
+                color: darkorange;
+                text-shadow: 1px 1px black;
+            }
+            nav#navegacao{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+            nav a{
+                color: black;
+                text-decoration: none;
+                font-size: 1.6rem;
+                margin-block: 1rem;
+            }
+            nav a:hover{
+                color: darkorange;
+                text-decoration: underline;
+            }
+            footer{
+                position: fixed;
+                bottom: 1%;
+                left: 1%;
+                background-color: orange;
+                border: 3px solid black;
+                border-radius: 50%;
+                padding: 0.3%;
+            }
+            footer a img{
+                width: 3.2rem;
+            }
+            body{
+                margin: 0;
+                font-family: system-ui;
+            }
+        </style>
+        <nav id="navegacao">
+            <a href="#minhaViagem">Minha Viagem</a>
+            <a href="#nosEncontre">Nos Encontre</a>
+            <a href="#conselhos">Conselhos</a>
+        </nav>
+        <main>
+            <section id="minhaViagem">
+                <h1>Minha Viagem</h1>
+            </section>
+            <section id="nosEncontre">
+                <h2>Nos Encontre</h2>
+                <p>
+                    É muito facil falar com a gente, estamos em várias redes sociais esperando o seu contato. Entre em Contato!
+                </p>
+            </section>
+            <section id="conselhos">
+                    <h2>Conselhos</h2>
+                    <h3>
+                        11 dicas de viagem que você precisa saber
+                    </h3>
+                    <ol type="1">
+                        <li>Faça uma lista de itens necessários</li>
+                        <li>Respeite e entenda a cultura dos locais que você visitar</li>
+                        <li>Para aqueles que querem economizar, evite comer perto das principais atrações</li>
+                        <li>Veja a opinião de quem já visitou o local</li>
+                        <li>Controle os gastos e faça um orçamento</li>
+                        <li>Veja a previsão do tempo</li>
+                        <li>Use as redes sociais para ter uma viagem mais completa</li>
+                        <li>Experimente a culinária local</li>
+                        <li>O destino dos sonhos pode estar ao seu lado</li>
+                        <li>Esteja sempre atento</li>
+                        <li>Faça um roteiro com suas preferências</li>
+                    </ol>
+                    <p>
+                       <cite>
+                            <a href="https://blog.conectcar.com/viagens/dicas-de-viagem/" target="_blank"> https://blog.conectcar.com/viagens/dicas-de-viagem/ </a>
+                       </cite>
+                    </p>
+            </section>
+        </main>
+        <footer>
+            <a href="#navegacao">
+                <img src="./img/home.svg" alt="Inicio">
+            </a>
+        </footer>
+    </body>
+</html>
